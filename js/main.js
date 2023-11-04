@@ -50,3 +50,6 @@ const closeNavMenu = () => {
 navLink.forEach((link) => {
   link.addEventListener("click", closeNavMenu);
 });
+
+// for AOS animation
+AOS.init();
